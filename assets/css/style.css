@@ -36,8 +36,10 @@ p{
 /*Top Nav. Ban. Text Styling*/
 header nav {
     border: 4px solid rgb(255, 0, 234);
-    height: 80px;
     width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -52,6 +54,8 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    flex-direction: column;
+    text-align: center;
 }
 
 
@@ -59,13 +63,16 @@ header nav ul li {
 #hero h2{
     margin-top: 70px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-size: 3em;
 }
 
 #hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: 4px solid rgb(162, 255, 0);
-    height: 632px;
     width: 100%;
+    height: 620px;
     text-align: center;
     font-family: monospace;
     color: white;
@@ -73,6 +80,9 @@ header nav ul li {
 
 #sketch{
     text-align: center;
+    height: 75%;
+    width: 90%;
+    padding-bottom: 10px;
 }
 
 
@@ -98,55 +108,61 @@ header nav ul li {
 
 /* Webpage Section Jumps */ 
 #about-dc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 4px solid rgb(14, 251, 255);
-    height: 718px;
     width: 100%;
     text-align: center;
 }
 
+
+
 #the-collection{
+    display: flex;
+    flex-direction: column;
     border: 4px solid rgb(201, 4, 246);
     height: 718px;
     width: 100%;
+    align-items: center;
     text-align: center;
     font-family: monospace;
-    color: white;
-}
-
-#the-collection h2{
+    color: white;    
     font-size: 40px;
 }
 
-#soon{
-    float: left;
-    max-width: 550px;
-    max-height: 200px;
-    margin-left: 100px;
-    margin-top: 180px;
-    margin-block-end: auto;
+
+.project-container {
+    display: flex;
+
+}
+
+.project {
+    height: 500px;
+    width: 400px;
 }
 
 #horiseon{
-    text-align: center;
     max-width: 333px;
     max-height: 333px;
-    margin-top: 50px;
-    margin-block-end: auto;
-}
+} 
 
 #runbuddy{
-    float: right;
-    max-width: 222px;
-    max-height: 222px;
     margin-top: 180px;
-    margin-right: 100px;
-    margin-block-end: auto;
+    max-width: 250px;
+    max-height: 250px; 
+}
+
+#soon{
+    margin-top: 180px;
+    max-width: 222px;
+    max-height: 222px; 
 }
 
 #connect h2{
     font-size: 55px;
-    margin-block-end: auto;
     margin-top: 150px;
+    text-align: center;
 }
 
 #connect{
@@ -169,3 +185,9 @@ footer{
     text-align: center;
     padding-top: 25px;
 }
+
+/* @media screen and (max-width: 768px) {
+    #the-collection{
+    height: 600px;
+    }
+} */
