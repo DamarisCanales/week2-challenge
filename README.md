@@ -1,16 +1,12 @@
 # Run Buddy, Inc
 
 ## Purpose
-A website that offers fitness training services. 
+A website that offers access to a webdeveloper's portfolio  and pull in potentil clients.
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://damariscanales.github.io/week2-challenge/
 
-## Contribution
-Made with ❤️ by [your name]
-
-### ©️2019 Run Buddy, Inc 
