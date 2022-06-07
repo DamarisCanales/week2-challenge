@@ -1,0 +1,187 @@
+
+/*Entire Webpage Backdrop Styling*/
+
+* {
+    box-sizing: border-box;
+    padding: 20;
+    margin: 20;
+}
+
+body {
+    background-image: url(../images/scott-webb-UjupleczBOY-unsplash.jpg);
+    background-color: rgb(196, 188, 188);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Nav. Anchor Settings*/
+a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*Paragraph Settings*/
+p{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*Top Nav. Ban. Text Styling*/
+header nav {
+    border: 4px solid rgb(255, 0, 234);
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav ul {
+    margin-top: 20px;
+    margin-right: 80px;
+    list-style-type: none;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/*Jumbotron Block Styling*/
+#hero h2{
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid rgb(162, 255, 0);
+    width: 100%;
+    height: 620px;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+
+#sketch{
+    text-align: center;
+    height: 75%;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+
+/*Nav. HPL Recall BLocks Styling*/
+
+.service {
+    font-family: monospace;
+    color: #ffffff;
+}
+
+/*Nav. HPL Recall Img Styling*/
+.service img {
+    margin-top: 25px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*Nav. HPL Recall Header Styling*/
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/* Webpage Section Jumps */ 
+#about-dc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgb(14, 251, 255);
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#the-collection{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(201, 4, 246);
+    height: 718px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+    color: white;    
+    font-size: 40px;
+}
+
+
+.project-container {
+    display: flex;
+
+}
+
+.project {
+    height: 500px;
+    width: 400px;
+}
+
+#horiseon{
+    max-width: 333px;
+    max-height: 333px;
+} 
+
+#runbuddy{
+    margin-top: 180px;
+    max-width: 250px;
+    max-height: 250px; 
+}
+
+#soon{
+    margin-top: 180px;
+    max-width: 222px;
+    max-height: 222px; 
+}
+
+#connect h2{
+    font-size: 55px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#connect{
+    border: 4px solid rgb(255, 82, 59);
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 18px;
+}
+
+footer{
+    border: 4px solid rgb(0, 0, 0);
+    height: 118px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    text-align: center;
+    padding-top: 25px;
+}

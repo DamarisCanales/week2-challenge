@@ -1,7 +1,7 @@
-# Run Buddy, Inc
+# Damaris Canales' Portfolio
 
 ## Purpose
-A website that offers access to a webdeveloper's portfolio  and pull in potentil clients.
+A website that offers access to a webdeveloper's portfolio in order to display work and pull in potentil clients.
 
 ## Built With
 * HTML

@@ -142,21 +142,21 @@ header nav ul li {
     width: 400px;
 }
 
-#horiseon{
+#bookExplorer{
     max-width: 333px;
     max-height: 333px;
 } 
 
-#runbuddy{
+#horiseon{
     margin-top: 180px;
-    max-width: 250px;
-    max-height: 250px; 
+    max-width: 232px;
+    max-height: 232px; 
 }
 
 #soon{
     margin-top: 180px;
-    max-width: 222px;
-    max-height: 222px; 
+    max-width: 212px;
+    max-height: 212px; 
 }
 
 #connect h2{
@@ -185,9 +185,3 @@ footer{
     text-align: center;
     padding-top: 25px;
 }
-
-/* @media screen and (max-width: 768px) {
-    #the-collection{
-    height: 600px;
-    }
-} */
