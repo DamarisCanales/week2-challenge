@@ -40,8 +40,8 @@ p{
 
 /*Top Nav. Ban. Text Styling*/
 header nav {
+    /* border: 4px solid rgb(255, 0, 234); */
     background-color: #FFFFFF;
-    border: 4px solid rgb(255, 0, 234);
     width: 100%;
     height: 95px;
     display: flex;
@@ -64,7 +64,7 @@ header nav ul li {
 
 
 #heroIMG{
-    border: 4px solid rgb(56, 36, 153);
+    /* border: 4px solid rgb(56, 36, 153); */
     flex-direction: column;
     height:450px;
     width: 350px;
@@ -75,10 +75,10 @@ header nav ul li {
 /*Jumbotron Block Styling*/
 
 #hero{
+    /* border: 4px solid rgb(162, 255, 0);= */
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 4px solid rgb(162, 255, 0);
     width: 100%;
     height: 620px;
     text-align: center;
@@ -94,13 +94,13 @@ header nav ul li {
 }
 
 .spacer {
-    border: 4px solid rgb(13, 10, 11);
+    /* border: 4px solid rgb(13, 10, 11); */
     height: 180px;
     min-width: 100%;
   }
 
   .internalHeader {
-    border: 4px solid rgb(56, 36, 153);
+    /* border: 4px solid rgb(56, 36, 153); */
     height: 150px;
     width: auto;
     font-size: 60px;
@@ -128,7 +128,7 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 4px solid rgb(14, 251, 255);
+    /* border: 4px solid rgb(14, 251, 255); */
     width: 100%;
     text-align: center;
 }
@@ -136,9 +136,9 @@ header nav ul li {
 
 
 #the-collection{
+    /* border: 4px solid rgb(201, 4, 246); */
     display: flex;
     flex-direction: column;
-    border: 4px solid rgb(201, 4, 246);
     height: 718px;
     width: 100%;
     align-items: center;
@@ -182,7 +182,7 @@ header nav ul li {
 }
 
 #connect{
-    border: 4px solid rgb(255, 82, 59);
+    /* border: 4px solid rgb(255, 82, 59); */
     height: 600px;
     width: 100%;
     text-align: center;
@@ -191,7 +191,7 @@ header nav ul li {
 }
 
 footer{
-    border: 4px solid rgb(0, 0, 0);
+    /* border: 4px solid rgb(0, 0, 0); */
     height: 118px;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -202,14 +202,14 @@ footer{
 }
 
 .heroContainer {
-    border: 4px solid rgb(0, 0, 0);
+    /* border: 4px solid rgb(0, 0, 0); */
     width: auto;
     height: 700px;
     display: flex;
   }
  
   .leftPollPanel {
-    border: 4px solid rgb(57, 182, 155);
+    /* border: 4px solid rgb(57, 182, 155); */
     flex-basis: 53%;
     display: flex;
     flex-direction: column;
@@ -217,18 +217,25 @@ footer{
   }
   
   .rightPollPanel {
-    border: 4px solid rgb(244, 189, 61);
+    /* border: 4px solid rgb(244, 189, 61); */
     flex-basis: 47%;
     height: 100%;
     contain: content;
   }
 
 
-  #contentIMG {
+  #contentLeftIMG {
     margin-top: 10px;
-    height:300px;
+    height:450px;
     width: 500px;
-    margin-left: 70px;
+    margin-left: 25px;
+  }
+
+  #contentRightIMG {
+    margin-top: 10px;
+    height:450px;
+    width: 500px;
+    margin-left: 95px;
   }
 
 
